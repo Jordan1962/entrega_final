@@ -1,0 +1,350 @@
+html {
+    font-size: 80%;
+    font-family: 'Amiri' sans-serif;
+    }
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 480px){
+    body{
+        background: rgb(247, 243, 243);
+    } 
+} 
+
+@media (min-width: 767px){
+    body{
+        background: rgb(245, 245, 241);
+    } 
+} 
+
+@media (min-width: 950px){
+    body{
+        background: none;
+    } 
+}
+
+.menuNav {
+    background-color: navy;
+    text-decoration: bolder;
+    padding: 20px; 
+    width: 100%;
+    height: 250px;
+}
+
+.navbar {
+    color: navy;
+    size: 150px; 
+}
+
+.nav-link {
+    color: navy;
+    size: 600px;
+}
+
+a{
+    color: navy;
+    size: 1200px;
+    font-weight: bolder;
+}
+
+*a:link {
+    color: navy;
+    size: 700px;
+    text-decoration: bolder;
+}
+.container {
+    background-color: navy;
+    background-size:cover;
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.contenedor {
+    color: navy;
+    background-size:cover;
+    margin-left: 0px;
+    margin-right: auto;
+    color: white;
+}
+
+.clientes {
+    color: navy;
+    size: 150px;
+    margin-left: 60px;
+}
+
+.cliente{
+    color: navy;
+    size: 10px;
+    height:auto;
+    margin-top: 20px;
+    margin-left: 60px;
+}
+
+.wrapper {
+    background-image: url(../Multimedia/images/towerbridge2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 20px;
+    height:fit-content;
+}
+
+.containerServicios {
+    background-image: url(../Multimedia/images/towerbridge2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px;
+    height:fit-content;
+}
+
+.containerContacto {
+    background-image: url(../Multimedia/images/towerbridge2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 80px;
+    height:fit-content;
+}
+
+.contenidoPrincipal {
+    padding: 5px;
+    margin-left: 20px;
+    max-width: fit-content; 
+    width: 100%;
+    height: 30%;
+}
+
+.redesSociales {
+    width: 100%;
+    text-align: center; /*logos los trata como texto*/
+    margin-top: 80px;
+    border-top: navy;
+}
+
+h1 {
+    color: white;
+    background-color: navy;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 4rem;
+    text-align: center;
+    text-decoration: bolder;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: navy;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    text-decoration: bolder;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+h3 {
+    color:navy;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    text-decoration: bolder;
+}
+
+ul {
+    color: navy;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.traduccionOficial {
+    color: navy;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.0rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-indent: 150px;
+}
+
+.traduccionNoOficial {
+    color: navy;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.0rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-indent: 150px; 
+}
+
+.containerCv {
+    background-image: url(../Multimedia/images/towerbridge2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 15px;
+    height:fit-content;
+}
+
+.curriculumVitae {
+    color: navy;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.6rem;
+    font-weight: bolder;
+    text-decoration: none;
+    text-indent: 50px;
+}
+
+.experienciaLaboral {
+    color: navy;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-indent: 100px;
+    margin-bottom: 80px;    
+}
+
+.clientes {
+    color: navy;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 1.4rem
+}
+
+.contactos {
+    background-image: url(../Multimedia/images/towerbridge2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40px;
+    height:fit-content;
+}
+
+.valores {
+    color: navy;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-indent: 50px;
+}
+
+.tiposLegalizaciones {
+    color: navy;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-indent: 15px;
+}
+
+.valoresPesos {
+    color: navy;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    text-indent: 60px;
+}
+
+.form-group {
+    width: 450px;
+    text-decoration: italic;  
+}
+
+.containerServicios {
+    background-image: url(../Multimedia/images/towerbridge2.png);
+    background-size: cover;
+    color: navy;
+    font-weight: 500;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40px;
+    height:fit-content;
+}
+
+.accordion {
+    color:navy;
+    max-width: 600px;
+    margin: 20px auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.8);
+}
+
+.accordion .card,
+.accordion .card:last-child .card-header {
+    border: none;
+}
+
+.accordion .card-header {
+    border-bottom-color: navy;
+    background: transparent;
+}
+
+.accordion .fa-stack {
+    font-size: 50px;
+}
+
+.accordion .btn {
+    width: 100%;
+    font-weight: bold;
+    color: navy;
+    padding: 20px;
+}
+
+.accordion .btn-link:hover,
+.accordion .btn-link:focus {
+    text-decoration: none;
+}
+
+.accordion li + li {
+    margin-top: 100px;
+}
+
+p {
+    color:navy;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    text-indent: 100px;
+    font-weight: bolder;
+    text-decoration: none; 
+}
+
+ul.li{
+    background-color:navy;
+}
+
+img:hover {
+    width: 600px;
+}
+
+table, th, td { 
+    border: 1px solid;
+}  
+
+i {
+    font-size: 3rem;
+    color: navy;
+    padding: 15px;
+}
+
+.separadorForm {
+    margin-bottom: 100px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    background-color: navy;
+}
+
+.contenedor {
+    display: flex;
+    background-image: url(../Multimedia/images/towerbridge2.png);
+    background-size: cover;
+    height:fit-content;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+}
